@@ -1,0 +1,35 @@
+POST /clientes/_doc/
+{
+  "Nombre" : "Allison",
+  "Telefono": "70540002",
+  "Barrio": "San Juan"
+}
+
+GET /clientes/_doc/eTNsbIABVv55JqynDAFs
+
+GET /clientes/_search
+
+GET /clientes/_search?q=Francisco
+
+GET /clientes/_search?q=*
+
+POST /clientes/_doc/eTNsbIABVv55JqynDAFs
+{
+  "Nombre": "Gabriela"
+}
+
+DELETE /clientes/_doc/eTNsbIABVv55JqynDAFs
+
+
+POST /movies/_bulk
+{ "index" :{} }
+{  "Nombre" : "Allison1","Telefono": "70540002","Barrio": "San Juan"}
+{ "index" :{} }
+{  "Nombre" : "Allison2","Telefono": "70540002","Barrio": "San Juan"}
+{ "index" :{} }
+{  "Nombre" : "Allison3","Telefono": "70540002","Barrio": "San Juan"}  
+{ "index" :{} }
+{  "Nombre" : "Allison4","Telefono": "70540002","Barrio": "San Juan"}  
+
+
+GET /movies/_search?q=*

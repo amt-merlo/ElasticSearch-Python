@@ -1,0 +1,15 @@
+{
+    "firstName": "Allison",
+    "lastName": "Jackson",
+    "gender": "female",
+    "age": 21,
+    "Hobbie" : "Reading",
+    "address": {
+        "streetAddress": "502",
+        "city": "Paraiso",
+        "state": "Cartago"
+    },
+    "phoneNumbers": [
+        { "type": "personal", "number": "719856998" }
+    ]
+ }
